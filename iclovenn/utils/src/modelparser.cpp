@@ -22,3 +22,10 @@
 *
 *
 ********************************************************************************/
+#include "modelparser.h"
+
+ModelParser::ModelParser() = default;
+
+void ModelParser::Log(std::string &message) {
+  std::cout << "[MODELPARSER] : " << message << std::endl;
+}

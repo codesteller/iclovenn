@@ -22,3 +22,16 @@
 *
 *
 ********************************************************************************/
+#ifndef MODELPARSER_H
+#define MODELPARSER_H
+
+#include <iostream>
+
+class ModelParser {
+ public:
+  ModelParser();
+
+  void Log(std::string &message);
+};
+
+#endif  // MODELPARSER_H
